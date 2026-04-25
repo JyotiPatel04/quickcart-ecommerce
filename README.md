@@ -47,7 +47,9 @@ Backend: https://quickcart-backend-wptm.onrender.com
 
 ---
 
-### Folder Structure
+## Folder Structure
+
+```text
 QuickCart
 ├── client
 │   └── src
@@ -64,34 +66,38 @@ QuickCart
     ├── routes
     ├── seed.js
     └── server.js
-    
-----
+```
+
+---
 
 ## Installation and Setup
 
 ### Clone the repository
 
+```bash
 git clone https://github.com/JyotiPatel04/quickcart-ecommerce.git
 cd quickcart-ecommerce
+```
 
 ---
-
 
 ### Backend Setup
 
+```bash
 cd server
 npm install
 npm run dev
+```
 
 ---
 
-
 ### Frontend Setup
 
-
+```bash
 cd client
 npm install
 npm run dev
+```
 
 ---
 
@@ -101,10 +107,11 @@ npm run dev
 
 Create a `.env` file inside the **server** folder:
 
+```env
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 PORT=5000
-
+```
 
 ---
 
@@ -112,9 +119,9 @@ PORT=5000
 
 Create a `.env` file inside the **client** folder:
 
-
+```env
 VITE_API_URL=https://quickcart-backend-wptm.onrender.com/api
-
+```
 
 ---
 
